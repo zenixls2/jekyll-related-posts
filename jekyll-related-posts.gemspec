@@ -25,7 +25,7 @@ Liquid template for each post is rendered and <related-posts /> is replaced with
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.6"
+  spec.add_development_dependency "bundler", "~> 2.2"
 
 	spec.add_runtime_dependency "jekyll", "~> 3.8"
   spec.add_runtime_dependency "liquid", "~> 4.0"
